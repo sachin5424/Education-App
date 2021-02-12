@@ -1,0 +1,33 @@
+/* .list-group li{
+    margin: 2%;
+
+} */
+section{
+    background-color: rgb(202, 194, 194);
+}
+.col-md-3  ul{
+    border-radius: 25px;
+}
+.col-md-3 ul li{
+    padding: 22px;
+    transition: 2s;
+}
+.col-md-3 ul li:hover{
+    background-color: yellow;
+}
+.col-md-3 ul li .left-arrow{
+    padding-left: 92px;
+    padding-bottom: 10px;
+    width: 24%;
+}
+.col-md-3 ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+
+.card-title{
+  
+    margin-top: -40px; margin-bottom: 15px; border-radius: 30px; font-size: 15px; padding: 17px; background-color: white; box-shadow: 3px 3px 4px black;
+}

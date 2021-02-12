@@ -1,0 +1,167 @@
+nav{
+    background-color: #022f41;
+    color: whitesmoke;
+    
+}
+.logo{
+    width: 20%;
+    margin: 2% 4%;
+}
+.nav-item a{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+    transform: 1s;
+
+}
+.nav-item:hover > a{
+    color: #0cbdaa;
+    
+}
+.nav-item{
+    text-transform: capitalize;
+    color: wheat;
+    
+}
+#menuNav{
+    background-color: #022f41;
+   
+}
+#menuNav .nav-item{
+    margin-left: 8%;
+}
+
+.list-unstyled  {
+    /* background-color: #003f58; */
+    margin: 0%;
+    padding: 0%;
+    transform: scale(0.8);
+  
+    
+}
+.list-group-item{
+    background-color: transparent;
+    border: none;
+    color: yellow;
+    
+}
+.list-group-item h3{
+   font-size: 19px;
+    
+}
+ .list-group li a{
+  color: #666;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.list-unstyled   a{
+    color: rgb(36, 35, 35);
+    text-decoration: none;
+   padding: 1px;
+   margin-left: 20px;
+    transition: 0.5s;
+  }
+  .list-unstyled   a:hover{
+    padding-left: 3%;
+  }
+
+.dropdownRow{
+    width: 1300px;
+  
+    
+    /* margin-right: 10%; */
+}
+.dropdown-menu{
+     background-color:red;
+     margin-left: -426%;
+     margin-top: 52px;
+     
+
+}
+
+.list-unstyled   div{
+    background-color: none;
+    border: 0.6px dotted white;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin: 1%; 
+    color: whitesmoke;
+   transition: 1s;
+    padding: 4%;
+  
+    
+}
+.list-unstyled  h6{
+    margin-top: 1%;
+    color: black;
+    font-size: 20px;
+    margin-left: -1%;
+    text-decoration: underline;
+}
+.list-unstyled   div:hover{
+  background-color: #0cbdaa;
+
+}
+.right-text1 {
+  padding: 1%;
+ 
+  color: whitesmoke;
+  background-color: none;
+  margin-right: 10%;
+}
+.right-text1 a{
+   margin: 4px;
+   color: whitesmoke;
+}
+.d-flex input{
+    background: none;
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid whitesmoke;
+}
+input:focus{
+    outline: none;
+    color: whitesmoke;
+}
+::placeholder{
+    color: whitesmoke;
+}
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+@media only screen and (max-width: 600px) {
+    .dropdown-menu{
+        background: teal;
+        margin: 0%;
+    }
+    .dropdownRow{
+        width: 90%;
+       
+       background-color: teal;
+        margin: 5%;
+    }
+    .list-unstyled   {
+        transform: scale(1);
+        color: wheat;
+        background-color: teal;
+        padding: 0%;
+        
+    }
+    .list-unstyled   a{
+        padding: 3%;
+        
+    }
+    .navbar-toggler{
+        background: violet;
+        margin-left: 85%;
+    }
+    .navbar-toggler-icon{
+        background: none;
+    }
+    
+  }

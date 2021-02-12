@@ -1,0 +1,10 @@
+a{
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+    
+}
+a:hover{
+    padding: 10px;
+    transition: 1s;
+}

@@ -3,14 +3,37 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AngularMaterialModule } from './angular-material/angular-material.module';
+import { CarouselComponent } from './carousel/carousel.component';
+import { HeaderComponent } from './header/header.component';
+import { ExploreComponent } from './explore/explore.component';
+import { TeamComponent } from './team/team.component';
+import { BlogsComponent } from './blogs/blogs.component';
+import { FeaturesComponent } from './features/features.component';
+import { FooterComponent } from './footer/footer.component';
+import { CourseDetailsPageComponent } from './course-details-page/course-details-page.component'
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CarouselComponent,
+    HeaderComponent,
+    ExploreComponent,
+    TeamComponent,
+    BlogsComponent,
+    FeaturesComponent,
+    FooterComponent,
+    CourseDetailsPageComponent,
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularMaterialModule,
+    BrowserAnimationsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
