@@ -15,8 +15,9 @@ import { FooterComponent } from './footer/footer.component';
 import { CourseDetailsPageComponent } from './course-details-page/course-details-page.component';
 import { CourseGridComponent } from './course-grid/course-grid.component';
 import { AboutComponent } from './about/about.component';
-import { ManagementComponent } from './management/management.component'
-
+import { ManagementComponent } from './management/management.component';
+import { ApplyComponent } from './apply/apply.component'
+import {ReactiveFormsModule,FormsModule} from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -32,12 +33,15 @@ import { ManagementComponent } from './management/management.component'
     CourseGridComponent,
     AboutComponent,
     ManagementComponent,
+    ApplyComponent,
    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AngularMaterialModule,
+    ReactiveFormsModule,
+    FormsModule,
     BrowserAnimationsModule,
     
   ],

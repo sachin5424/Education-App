@@ -1,0 +1,132 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <h2>No sit debitis meliore postulant, per ex prompta alterum sanctus?</h2>
+            <p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant.</p>
+             <samp> + 61 (2) 8093 3400</samp><br>
+             <samp> + 61 (2) 8093 3400</samp><br>
+             <samp>sachinsagar516@gmail.com</samp><br><br>
+             <h2>No sit debitis meliore postulant, per ex prompta alterum sanctus?</h2>
+             <p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+             
+             <hr>
+             
+             <button mat-flat-button>BROWSE COURSES</button>
+             <br>
+        </div>
+        <div class="col-md-8">
+          <!-- <button mat-raised-button (click)="isLinear = !isLinear" id="toggle-linear">
+            {{!isLinear ? 'Enable linear mode' : 'Disable linear mode'}}
+          </button> -->
+          <form [formGroup]="appyForm"(ngSubmit)="onSubmit()" >
+              <mat-vertical-stepper  [linear]="isLinear" #stepper>
+                <mat-step  label="Step 2"  [stepControl]="appyForm">
+                  
+                 
+                       <div class="form-group">
+                          
+                       
+                         <br>
+                        
+                         <input type="text"
+                           class="form-control"  name="First_name" formControlName="First_name" id="" aria-describedby="helpId" placeholder="First Name">
+                           <br>
+                          
+                        </div>
+                       <br><br>
+                       <div class="form-group">
+                        <input type="text"
+                          class="form-control" minlength="3" formControlName="Last_Name"  name="Last_Name" id="" aria-describedby="helpId" placeholder="Last Name">
+                         <br>
+                          <!-- <small id="helpId" class="form-text text-muted">Help text</small> -->
+                      </div>
+                      <br>
+                      <div class="form-group">
+                        <input type="email"
+                          class="form-control"  formControlName="email"  name="email" id="" aria-describedby="helpId" placeholder="email">
+                        <br>
+
+                          <!-- <small id="helpId" class="form-text text-muted">Help text</small> -->
+                      </div>
+                      <br>
+                      <div class="form-group">
+                        <input type="text"
+                          class="form-control" formControlName="phone"  name="phone" id="" aria-describedby="helpId" placeholder="phone">
+                          <br>
+  
+                          <!-- <small id="helpId" class="form-text text-muted">Help text</small> -->
+                      </div>
+                     
+                 
+                      <button (click)="clickEventHandler(appyForm)"  mat-button matStepperNext>Next</button>
+                  <br>
+
+                  <div>
+                   
+                  </div>
+                </mat-step>
+                <mat-step label="Step 2" state="chat"  [stepControl]="appyForm">
+                  <div class="form-group w-25">
+                   
+                    <select class="form-control" name="" id="">
+                      <option>Select your country</option>
+                      <option>v</option>
+                      <option>1</option>
+                    </select>
+                  </div>
+                  <br>
+                  <div class="form-group w-25">
+                   
+                    <select class="form-control" name="" id="">
+                      <option>Select your Gender</option>
+                      <option>Male</option>
+                      <option>Female</option>
+                      <option>Other</option>
+                    </select>
+                  </div>
+                  <div>
+                    <button mat-button matStepperPrevious>Back</button>
+                    <button mat-button matStepperNext>Next</button>
+                  </div>
+                </mat-step>
+                <mat-step label="Step 3">
+                   <h1>Your preferences</h1>
+                   <div class="form-group">
+                   
+                     <select class="form-control" name="" id="">
+                       <option>Art: Impressionist</option>
+                       <option>2</option>
+                       <option>3</option>
+                     </select>
+                   </div>
+                   <br>
+                   <br>
+                <div class="form-group">
+                  <label for="">text</label>
+                  <textarea class="form-control" name="" id="" rows="3"></textarea>
+                </div>
+                <br>
+                <div class="form-group w-25">
+                  <label for=""></label>
+                  <input type="text"
+                    class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                  
+                </div>
+                <br>
+                <button type="submit">sumbit</button>
+                </mat-step>
+              
+                <!-- Icon overrides. -->
+                <ng-template matStepperIcon="phone">
+                  <mat-icon>call_end</mat-icon>
+                </ng-template>
+                <ng-template matStepperIcon="chat">
+                  <mat-icon>forum</mat-icon>
+                </ng-template>
+              </mat-vertical-stepper>
+              </form>
+        </div>
+    </div>
+</div>
+
+
