@@ -14,7 +14,8 @@ import { FeaturesComponent } from './features/features.component';
 import { FooterComponent } from './footer/footer.component';
 import { CourseDetailsPageComponent } from './course-details-page/course-details-page.component';
 import { CourseGridComponent } from './course-grid/course-grid.component';
-import { AboutComponent } from './about/about.component'
+import { AboutComponent } from './about/about.component';
+import { ManagementComponent } from './management/management.component'
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { AboutComponent } from './about/about.component'
     CourseDetailsPageComponent,
     CourseGridComponent,
     AboutComponent,
+    ManagementComponent,
    
   ],
   imports: [

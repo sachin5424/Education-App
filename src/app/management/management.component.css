@@ -1,0 +1,15 @@
+samp{
+    
+    padding: 25px;
+    /* margin-left: 25px; */
+    /* margin: 22px; */
+    background-color: aqua;
+}
+@media only screen and (max-width: 600px) {
+    .col-md-3{
+        display: none;
+    }
+ body{
+     overflow: hidden;
+ }
+}
