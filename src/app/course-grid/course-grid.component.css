@@ -1,0 +1,8 @@
+mat-list-item{
+    transition: 1s;
+  
+  }
+  mat-list-item:hover{
+    background-color: aqua;
+  
+  }

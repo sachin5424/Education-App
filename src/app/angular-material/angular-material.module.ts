@@ -11,7 +11,8 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatCardModule} from '@angular/material/card';
-
+import {MatBadgeModule} from '@angular/material/badge';
+import {MatPaginatorModule} from '@angular/material/paginator';
 
 const project_style =[ 
   MatSliderModule,
@@ -25,7 +26,9 @@ const project_style =[
   MatMenuModule,
   MatExpansionModule,
   MatGridListModule,
-  MatCardModule
+  MatCardModule,
+  MatBadgeModule,
+  MatPaginatorModule
 
 
 ]
