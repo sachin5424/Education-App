@@ -13,7 +13,8 @@ import { BlogsComponent } from './blogs/blogs.component';
 import { FeaturesComponent } from './features/features.component';
 import { FooterComponent } from './footer/footer.component';
 import { CourseDetailsPageComponent } from './course-details-page/course-details-page.component';
-import { CourseGridComponent } from './course-grid/course-grid.component'
+import { CourseGridComponent } from './course-grid/course-grid.component';
+import { AboutComponent } from './about/about.component'
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { CourseGridComponent } from './course-grid/course-grid.component'
     FooterComponent,
     CourseDetailsPageComponent,
     CourseGridComponent,
+    AboutComponent,
    
   ],
   imports: [
